@@ -17,7 +17,6 @@
 
 <script>
 import Main from './components/Main.vue'
-import About from './components/About'
 import Raffle from './components/Raffle'
 import Header from './components/includes/mainHeader.vue'
 import Footer from './components/includes/mainFooter.vue'
@@ -28,7 +27,6 @@ export default {
     'main-header': Header,
     'main-footer':Footer,
     Main,
-    About,
     Raffle
 
   },
