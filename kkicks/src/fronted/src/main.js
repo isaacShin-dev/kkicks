@@ -4,6 +4,17 @@ import BootstrapVue from 'bootstrap-vue'
 import router from "./router" 
 import 'bootstrap/dist/css/bootstrap.min.css' 
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import Meta from 'vue-meta'
+
+Vue.use(Meta, {
+  keyName: 'metaInfo',
+  attribute: 'data-vue-meta',
+  ssrAttribute: 'data-vue-meta-server-rendered',
+  tagIDKeyName: 'vmid',  // 변화시키는 구분 값
+  refreshOnceOnNavigation: true
+})
+
+
 
 Vue.use(BootstrapVue)
 

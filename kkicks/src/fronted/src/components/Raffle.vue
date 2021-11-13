@@ -1,24 +1,18 @@
 <template>
-<div id = "container">
-  <h2>About Kkicks !</h2>
-  <h5>This page is going to contains the a lot more info bout this web service in da future</h5>
-  <b-card>bootstrap Test </b-card>
-    
-</div>
-
+<h1>raffle page</h1>
 </template>
 
 <script>
-    export default {
-        name : 'About',
+export default {
+        name : 'Raffle',
         props: {
             msg: String
         },
         data() {
             return {
                 tags: [],
-            }
                 show: true
+            }
         },
         methods: {
             onsubmit(evt){
@@ -26,10 +20,9 @@
                 alert(JSON.stringify(this.tags))
             }
         }
-    }
+}
 </script>
 
-
-<style scoped>
+<style>
 
 </style>
