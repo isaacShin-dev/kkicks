@@ -2,10 +2,6 @@
 <template>
 <div name = "main-wrapper" id="main-wrapper">
 
-
-
-
-
 </div>
 </template>
 
